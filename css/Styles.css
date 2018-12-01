@@ -1,0 +1,461 @@
+* {
+    box-sizing: border-box;
+}
+
+a:hover {
+    color:#66ccff;
+    font-family:Avenir;
+}
+
+a {color:#66ccff
+}
+
+.active {
+    background-color:#0099cc;
+    border-radius:30px;
+    color:white;
+    font-family:Avenir;
+}
+
+.ayanimg {
+    width:150px; 
+    height:175px;
+}
+
+.Ayan {
+     font-family:Avenir;
+     width:40%;
+     display:inline-block;
+     text-align:left;
+     margin:0px 60px;
+     float:left;
+     margin-bottom:50px;
+}
+
+.abouttext {
+     width:80%; 
+     font-family:Avenir; 
+     font-size:100%; 
+     text-align:center; 
+     margin-left:auto; 
+     margin-right:auto;
+     padding:50px; 
+}
+
+.blueline {
+    display: block; 
+    margin-left:auto; 
+    margin-right:auto; 
+    width:100px; 
+    height:3px;
+}
+
+body {
+    margin:0px;
+}
+
+.button {
+    border: 2px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    position:absolute;
+    top:550px;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    font-family:Avenir;
+    width:15%;
+    font-size:20px;
+}
+
+.button:hover {
+    background-color:white;
+    color:black;
+    opacity:0.3;
+}
+
+.blogtext {
+     width:90%; 
+     font-family:Avenir; 
+     font-size:100%; 
+     text-align:justify; 
+     margin-left:auto; 
+     margin-right:auto;
+     padding:50px; 
+}
+
+.bluetext {color:#66ccff}
+
+.contacttext {
+     width:80%; 
+     font-family:Avenir; 
+     font-size:120%; 
+     text-align:left; 
+     padding:0px; 
+     margin-left:60px;
+}
+
+.database {
+     background-color:#333333; 
+     padding:30px; 
+     opacity:0.95; 
+     width:40%; 
+     position: absolute; 
+     top:2650px; right:0px; 
+     color:white; 
+     font-family:Avenir; 
+     text-align:right;
+}
+
+.forr {
+
+     font-family:Avenir;
+     font-size:20px;
+     width:40%;
+     display:table;
+     text-align:right;
+     float:left;
+     margin:0 60px;
+}
+
+
+.font1 {
+    font-family:Apple Chancery; 
+    color:#66ccff; 
+    font-size:90%;
+}
+
+
+
+.footercolumn {
+    float:left;
+    text-align:left;
+    font-family:Avenir;
+    font-size:100%;
+    width:20%;
+    padding:5px;
+    margin-left:30px;
+}
+
+
+
+.footertext {
+    color: white;
+    text-decoration: none;
+    font-family:Avenir;
+    font-size:100%;
+    float:none;
+    text-align:left;
+    padding:5px;
+    margin-left:40px; 
+}
+
+.footerbox {
+    background-color:#333333; 
+    margin-bottom:0px;
+}
+
+.footercaption1 {
+    color:#66ccff; 
+    margin-left:40px; 
+    margin-top:10px
+}
+
+.footercaption2 {
+    color:#333333; 
+    margin-left:40px; 
+    margin-top:10px
+}
+.fontsize_1 {font-size: 200%;}
+.fontsize_2 {font-size: 180%;}
+.fontsize_3 {font-size: 150%;}
+.fontsize_4 {font-size: 120%;}
+.fontsize_5 {font-size: 100%;}
+.fontsize_6 {font-size: 70%;}
+.fontsize_7 {font-size: 130%;}
+
+
+.headerindex {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/body.jpg'); width:100%; height:800px;}
+.headerservices {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/services.jpg');}
+.headerabout {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/about.jpg');}
+.headerblog {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/blog.jpg');}
+.headercontact {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/contact.jpg');}
+.headercloud {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/cloud.jpg'); height: 500px; -webkit-animation: example 20s linear; animation: example 20s linear;}
+.headerconsultancy {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/consultancy.jpg'); height: 500px; -webkit-animation: example 20s linear; animation: example 20s linear;}
+.headersoftware {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/software.jpg'); height: 500px; -webkit-animation: example 20s linear; animation: example 20s linear;}
+.headersupport {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/support.jpg'); height: 500px; -webkit-animation: example 20s linear; animation: example 20s linear;}
+.headertesting {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/testing.jpg'); height: 500px; -webkit-animation: example 20s linear; animation: example 20s linear;}
+.headerweb {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/web.jpg'); height: 500px; -webkit-animation: example 20s linear; animation: example 20s linear;}
+.headerdatabase {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/database.jpg'); height: 500px; -webkit-animation: example 20s linear; animation: example 20s linear;}
+.headerux {background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/design.jpg'); height: 500px; -webkit-animation: example 20s linear; animation: example 20s linear;}
+
+@-webkit-keyframes example {
+    0%   {background-size: 100% auto;}
+    50%  {background-size: 105% auto;}
+    100% {background-size: 105% auto;}
+}
+
+@keyframes example {
+    0%   {background-size: 100% auto;}
+    50%  {background-size: 105% auto;}
+    100% {background-size: 105% auto;}
+}
+
+.headertext {
+    text-align: center;
+    font-family:Avenir;
+    color:white;    
+    position:absolute;
+    margin-left:auto;
+    margin-right:auto;
+    left:0;
+    right:0;
+    top:250px;
+    width:80%;
+    font-size:200%;
+}
+
+.header {
+    padding: 230px;
+    text-align: center;
+    font-family:Avenir;
+    font-size:150%;
+}
+
+.headerbox {
+     background-color:#333333; 
+     padding:30px; 
+     opacity:0.95; 
+     width:30%;
+     height:230px;
+     position: absolute; 
+     top:170px; 
+     color:white; 
+     font-family:Avenir; 
+     font-size:140%;
+}
+
+.headerbox:hover {opacity:0.8;}
+
+.headerboxcontact {
+     background-color:#333333; 
+     padding:30px; 
+     opacity:0.95; 
+     width:30%;
+     height:250px;
+     position: absolute; 
+     top:170px; 
+     color:white; 
+     font-family:Avenir; 
+     font-size:140%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family:Avenir;
+    font-size:70%;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family:Avenir;
+    font-size:70%;
+}
+
+input[type=submit]:hover {
+    background-color: #666666;
+}
+
+.indexbox {
+    width:80%; 
+    margin-left:auto; 
+    margin-right:auto; 
+    padding:40px; 
+    font-family:Avenir; 
+    text-align:center; 
+    margin-bottom:30px;
+}
+
+.ifquestion {
+    font-family:Apple Chancery; 
+    color:#0066cc; 
+    font-size:90%;
+    padding:10px;
+    text-align:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-family:Avenir;
+    font-size:85%;
+    float: right;
+}
+
+.logo {
+    width:200px; 
+    height:45px; 
+    margin-left:50px; 
+    margin-top:5px;
+
+}
+
+.navytext {color:#0066cc}
+
+.row:after{
+    content:"";
+    display:table;
+    clear:both;
+    }
+
+
+.support {
+     background-color:white; 
+     padding:30px; 
+     position: absolute; 
+     width:40%; 
+     color:black; 
+     font-family:Avenir; 
+     top:870px;
+}
+
+
+.software {
+    background-color:white; 
+    padding:30px; 
+    width:40%; 
+    position: absolute; 
+    top:3600px; 
+    color:black; 
+    font-family:Avenir; 
+    text-align:left;
+}
+
+.services_support {
+    background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/247.jpg');
+    height:650px;
+}
+
+.services_ux {
+    background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/ux.jpg');
+    height:650px;
+}
+
+.services_database{
+    background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/data.jpg');
+    height:650px;
+}
+
+.services_software {
+    background-image:url('file:///Users/bilbotron/Desktop/QUORIDWEB/images/soft.jpg');
+    height:650px;
+}
+
+.services_text {
+    font-family:Avenir; 
+    width:70%; 
+    padding:30px; 
+    color:black; 
+    text-align:center; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+.sectiontext {
+
+     font-family:Avenir;
+     width:45%;
+     display:inline-block;
+     text-align:left;
+     margin:0px 60px;
+     float:left;
+     margin-bottom:50px;
+     margin-top:50px;
+}
+
+.sectionforma {
+
+     font-family:Avenir;
+     width:38%;
+     display:inline-block;
+     text-align:right;
+     float:left;
+     margin:0 60px;
+     font-size:20px;
+     margin-top:30px;
+}
+
+.sectionparagraph {
+    font-size:130%; 
+    color:#0066cc;
+}
+
+.sectionli {padding:3px;}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    margin: 5px 0;
+    font-family:Avenir;
+    font-size:70%;
+    color:#333333;
+}
+
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding:15px;
+    height:85px;
+    background-color:#333333;
+    opacity:0.95; 
+}
+
+.uxdesign {
+     background-color:#333333; 
+     padding:30px; 
+     opacity:0.95; 
+     width:40%; 
+     position: absolute; 
+     top:1760px; 
+     color:white; 
+     font-family:Avenir; 
+     text-align:left;
+}
+
+ul.footer {
+    list-style-type:none;
+    padding:5px;
+    width:100%;
+    margin-bottom:0px; 
+}
